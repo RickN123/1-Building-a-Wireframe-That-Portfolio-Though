@@ -42,7 +42,7 @@
   #background {
     background-image: url("../BasicPortfolio/dynamic-style.png");
     position:center;
-    width: 100%;
+    width: 300px;
     height:1000px;
     color: white;
   }
@@ -51,7 +51,7 @@
   }
   #content { 
     height:60%;
-    width: 60%;
+    width: 300px;
     background-color: #white(232, 236, 236);
     color: #777777;
     border-color:#cccccc;
@@ -64,13 +64,15 @@
     margin-right:300px;
     align: center;
     background-position: relative;
-    margin-top:0;
+    padding:20px;
     font-family: 'Margarine', cursive;
     font-family: 'Merriweather', serif;
   }
 
   #contact-tag {
     width: auto;
+    resize: auto;
+    overflow:auto;
 
   }
    #container {
