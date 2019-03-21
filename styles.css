@@ -74,12 +74,12 @@
     height: 20px;
     font-size: 10px;
     text-emphasis-color: white;
-    position:relative;
+    position:absolute;
     bottom:absolute;
     text-align: center;
     border-top-style: solid;
     border-color:#4aaaa5; 
     margin-bottom:auto;
-    min-height:10%;
+    min-height:45px;
 
   }
