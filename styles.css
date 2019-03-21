@@ -74,10 +74,12 @@
     height: 20px;
     font-size: 10px;
     text-emphasis-color: white;
-    position:absolute;
-    bottom:0;
+    position:relative;
+    bottom:absolute;
     text-align: center;
     border-top-style: solid;
     border-color:#4aaaa5; 
+    margin-bottom:auto;
+    min-height:10%;
 
   }
