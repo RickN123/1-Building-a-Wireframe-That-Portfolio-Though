@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+  #header{
+    background-color: grey;
+    color: red;
+
+  }
+  #rick {
+    display:inline-block;
+
+
+  }
+  body {
+    margin: 0;
+
+  }
+
+  #links {
+    display:inline-block;
+    position: absolute;
+    margin-right: 10%;
+    top:0;
+    right:0;
+  }
+    .fixed{
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+  }
+  #main-bio { 
+    height:25px;
+    width: 100%;
+    background-color: rgb(0, 232, 248);
+    color: #777777;
+    border-color:#cccccc;
+    font-size: 10px;
+    font: Georgia;
+    float: fixed left;
+    text-decoration-color: rgb(253, 253, 253);
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+  #contact{
+    height:25px;
+    width: 25%;
+    margin-left:950px;
+    background-color: rgb(219, 224, 224);
+    color: rgba(0, 0, 0, 0.233);
+    font-size: 10px;
+    float: fixed right;
+    text-decoration-color: rgb(253, 253, 253);
+    text-align: center;
+  }
+  #section {
+    margin-left:250px;
+    margin-right:250px;
+    widows: 80px;
+    padding:100px;
+    border: 500px;
+    border-color: rgb(253, 253, 253);
+    background-color: rgb(118, 131, 131);
+    font-size: 20px;
+    text-align: center;
+    text-emphasis-color: white
+  }
+  #footer {
+    width: 100%;
+    background-color: rgb(112, 124, 124);
+    height: 10%;
+    font-size: 10px;
+    text-emphasis-color: white;
+    overflow: auto;
+    float: bottom;
+
+  }

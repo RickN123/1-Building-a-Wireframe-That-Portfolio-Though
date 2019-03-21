@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+#container {
+    font: trebuchet;
+    width: 45%;
+    margin-left:20%;
+    margin-right:20%;
+    height: 500px;
+    background-color: #d6d6d6;
+    text-decoration-color: aqua;
+    text-align: justify;
+    float:center;
+    overflow:auto;
+}
+#contact-tag {
+    color: aqua;
+}
+#Contact-Form {
+    font:georgia;
+    margin-left:20%;
+    margin-right:20%;
+    background-color: aqua;
+    color: white;
+    width:10%;
+    text-align: center;
+}
+#namebox {
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: justify;
+    background-color: red;
+    width: 14%;
+    box-lines: 3px;
+}
+
+
+
+
+}
+#Info {
+    margin-left:70%;
+}
+    
