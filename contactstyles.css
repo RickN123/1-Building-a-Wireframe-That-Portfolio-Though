@@ -67,8 +67,15 @@
     margin-top:0;
     font-family: 'Margarine', cursive;
     font-family: 'Merriweather', serif;
+  }
 
-   
+  #contact-tag {
+    width: auto;
+
+  }
+   #container {
+    width: auto;
+   }
   }
   #footer {
     width: 100%;
