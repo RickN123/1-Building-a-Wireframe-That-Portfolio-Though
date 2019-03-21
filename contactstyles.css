@@ -68,13 +68,24 @@
     font-family: 'Margarine', cursive;
     font-family: 'Merriweather', serif;
   }
+  #nameform  {
+    width: auto;
+
+  }
+    
+
 
   #contact-tag {
     width: auto;
+    text
     resize: auto;
     overflow:auto;
 
   }
+
+    #submit {
+    color:aqua
+    }
    #container {
     width: auto;
    }
