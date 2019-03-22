@@ -48,9 +48,18 @@
     color: aqua;
   }
   #iphone {
-    display: inline block;
+    display: block;
+    font-display: block;
+    text-anchor: middle;
     font style: georgia;
-
+    float:relative;
+    background-image: url("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg");
+    width: 150px;
+    height: 150px;
+    color: aqua;
+    text-align: center;
+    font size:16px;
+    
   }
   #content { 
     height:60%;
@@ -70,22 +79,25 @@
     margin-top:0;
     font-family: 'Margarine', cursive;
     font-family: 'Merriweather', serif;
-    image src:("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg"
-
-   
   }
-  #footer {
-    width: 100%;
-    background-color: rgb(112, 124, 124);
-    height: 20px;
-    font-size: 10px;
-    text-emphasis-color: white;
-    position:absolute;
-    bottom:absolute;
+
+  #wrapper {
+    position: relative;
     text-align: center;
-    border-top-style: solid;
-    border-color:#4aaaa5; 
-    margin-bottom:auto;
-    min-height:45px;
 
   }
+
+#footer {
+  width: 100%;
+  background-color: rgb(112, 124, 124);
+  fill: #777777;
+  height: 20px;
+  font-size: 10px;
+  text-emphasis-color: white;
+  bottom:0;
+  text-align: center;
+  border-top-style: solid;
+  border-color:#4aaaa5; 
+  margin-bottom:auto;
+  min-height:45px;
+}
