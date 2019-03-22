@@ -56,10 +56,9 @@
     background-image: url("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg");
     width: 150px;
     height: 150px;
-    color: aqua;
+    color: #white;
     text-align: center;
     font size:16px;
-    
   }
   #content { 
     height:60%;
