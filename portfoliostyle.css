@@ -56,10 +56,37 @@
     background-image: url("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg");
     width: 150px;
     height: 150px;
-    color: #white;
+    color: white;
     text-align: center;
     font size:16px;
   }
+#soccer{
+  display: block;
+  font-display: block;
+  text-anchor: middle;
+  font style: georgia;
+  background-image: url("../BasicPortfolio/images/Soccer-q-c-640-427-6.jpg");
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font size:16px;  
+  margin right: 25px;
+}
+#sfcity{
+  display: block;
+  font-display: block;
+  text-anchor: middle;
+  font style: georgia;
+  background-image: url("../BasicPortfolio/images/sfcity-q-c-640-480-10.jpg");
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font size:16px;  
+  margin right: 25px;
+  position:relative;
+}
   #content { 
     height:60%;
     width: 60%;
@@ -75,15 +102,25 @@
     margin-right:300px;
     align: center;
     background-position: relative;
-    margin-top:0;
-    font-family: 'Margarine', cursive;
-    font-family: 'Merriweather', serif;
+    margin-top:0; 
   }
-
-  #wrapper {
+  #sfcitywrapper {
     position: relative;
     text-align: center;
-
+  }
+  #sushi{
+    display: block;
+    font-display: block;
+    font style: georgia;
+    background-image: url("../BasicPortfolio/images/sushifood-q-c-640-427-4.jpg");
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font size:16px;  
+    float:fixed;
+    right: 0;
+   
   }
 
 #footer {
