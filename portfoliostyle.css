@@ -1,5 +1,9 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  
   }
   #header{
     background-color: #ffffff;
@@ -107,7 +111,7 @@
   position:relative;
 }
   #content { 
-    height:60%;
+    height:100%;
     width: 60%;
     background-color: rgb(232, 236, 236);
     color: #777777;
@@ -117,8 +121,8 @@
     text-align: justify;
     top: 0;
     left: 0;
-    margin-left:300px;
-    margin-right:300px;
+    margin-left:auto;
+    margin-right:auto;
     align: center;
     background-position: relative;
     margin-top:0; 
@@ -151,11 +155,11 @@
     height: 20px;
     font-size: 10px;
     text-emphasis-color: white;
-    position:absolute;
-    bottom:absolute;
+    position:bottom;
+    bottom:zero;
     text-align: center;
     border-top-style: solid;
     border-color:#4aaaa5; 
-    margin-bottom:auto;
+    margin-bottom:zero;
     min-height:45px;
 }
